@@ -4,7 +4,7 @@
   "description": "Encode and Decode String",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --recursive --watch"
+    "test": "mocha test --recursive"
   },
   "author": "",
   "license": "ISC",

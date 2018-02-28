@@ -30,8 +30,8 @@ const DECODE_MODE = -1;
  * @return		Encoded or decoded String depending on the mode informed
  */
 function encodeDecode(text, mode) {
-  if (text === null)
-    return null;
+  if (text == null)
+    return text;
 
   var textEncoded = '';
   for (var count = 0; count < text.length; count++) {

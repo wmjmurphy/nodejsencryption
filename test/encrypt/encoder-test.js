@@ -13,6 +13,10 @@ describe('Encode', function() {
 		expect(encoder.encode(null)).to.be.a('null');
 	});
 
+  it('encode(undefined) should return undefined', function() {
+		expect(encoder.encode(undefined)).to.be.a('undefined');
+	});
+
   it('encode("") should return ""', function() {
 		expect(encoder.encode('')).to.equal('');
 	});
@@ -39,6 +43,10 @@ describe('Encode', function() {
 
   it('decode(null) should return null', function() {
 		expect(encoder.decode(null)).to.be.a('null');
+	});
+
+  it('decode(undefined) should return undefined', function() {
+		expect(encoder.decode(undefined)).to.be.a('undefined');
 	});
 
   it('decode("") should return ""', function() {
