@@ -14,11 +14,13 @@ Assumptions considered:
 
 ## Installation
 
-clone the repository
+Clone the repository
 
 git clone https://github.com/wmjmurphy/nodejsencryption.git
 
-run the npm install
+Run the command 
+
+npm install
 
 ## Testing
 
@@ -28,7 +30,7 @@ Go to the root directory (nodejsencryption)
 
 Run the command
 
-mocha test --recursive --watch
+npm test
 
 ## Contributing
 

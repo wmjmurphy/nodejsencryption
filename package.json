@@ -4,15 +4,15 @@
   "description": "Encode and Decode String",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "mocha test --recursive --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
   },
   "dependencies": {
-    "mocha": "^5.0.1",
     "string": "^3.3.3"
   }
 }
